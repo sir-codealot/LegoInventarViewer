@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="lego-brick-icon-0.ico" />
+    <None Include="README" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

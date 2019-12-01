@@ -1,0 +1,17 @@
+﻿The App parses the content of a .xclx which is exportet to a CSV and presentates it.
+
+The CSV / sheet mus be formatet as followed:
+
+First line: The cell descriptions
+Number, Name, Bricks, Genre, Sub-Genre, storage location, Year, retail price, current price, price per brick
+
+The delimiter is a ';' and the CSV should be UTF-8 encoded, due to show special characters like currency symbols or umlauts.
+If Excel doesn't encode the file the right way use a 3rd party text editor like Notepad++ to re-encode the CSV file.
+
+Usage:
+Load the CSV by browsig ("Durchsuchen") and loading it ("Laden").
+After that you should see a list of items named "number: set name" in the left listview.
+If you click on one item you get the detailed information about you set (based on the available information from
+the CSV) and an image of the set or set-manual. The images are loaded from the brickset.com database and are choosen
+after their name convections (usually the set's number or [number]-1). 
+

@@ -35,6 +35,7 @@ namespace LegoInventar
         List<string> setPricePerBrick = new List<string>();
 
         
+
         private void btn_browse_Click(object sender, EventArgs e)
         {
             if (fileDialog.ShowDialog() == DialogResult.OK)
